@@ -1,0 +1,28 @@
+.navbar{
+    position: fixed;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    height: 20px;
+
+    /*animations*/
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.navbar_black{
+    background-color: black ;
+}
+
+.navbar_logo{
+    width: 80px;
+    left: 30px;
+    object-fit: contain;
+}
+
+.navbar_avatar{
+    width: 30px;
+    position: fixed;
+    right: 20px;
+}
