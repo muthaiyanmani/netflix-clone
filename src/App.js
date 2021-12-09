@@ -19,7 +19,7 @@ function App() {
       <Rows title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
       <Rows title="Romantic Movies" fetchUrl={requests.fetchRomanceMovies}/>
       <Rows title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
-
+        <p style={{color:"white",textAlign:"center",padding:"1%"}}>Made with 💖 by <a style={{textDecoration:"none",color:"white"}} href="https://www.linkedin.com/in/muthaiyanmani" target={'_blank'} rel="noreferrer">muthaiyanmani</a></p>
     </div>
   );
 }
